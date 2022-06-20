@@ -13,7 +13,7 @@ public class PdfClass {
 	
 	@Test
 	public void ReadFile() throws IOException {
-		File file=new File("C:\\Users\\AANILLOM\\Downloads\\Amar Doc\\Capgemini\\Amar Capgemini Resume.pdf");
+		File file=new File("C:\Users\rheas\OneDrive\Desktop\Java Training\FrankAllenResume.pdf");
 		FileInputStream Fis= new FileInputStream(file);
 		PDDocument doc= PDDocument.load(Fis);
 		System.out.println(doc.getPages().getCount());

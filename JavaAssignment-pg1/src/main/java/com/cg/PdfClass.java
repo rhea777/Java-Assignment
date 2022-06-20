@@ -20,7 +20,7 @@ public class PdfClass {
 		PDFTextStripper pdfTextStripper =new PDFTextStripper();
 		String docText=pdfTextStripper.getText(doc);
 		//System.out.println(docText);
-		//Assert.assertTrue(docText.contains("JAVA"));
+		//Assert.assertTrue(docText.contains("Java"));
 		//doc.close()
 	
 	Scanner s = new Scanner(System.in);

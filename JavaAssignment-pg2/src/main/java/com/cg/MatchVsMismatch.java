@@ -10,8 +10,8 @@ public class MatchVsMismatch
 	public static void main(String[] args) throws IOException 
 	{
 		// TODO Auto-generated method stub
-        BufferedReader TextFile1 = new BufferedReader(new FileReader("C:\\Users\\AANILLOM\\eclipse-workspace\\NGTJAVAAssignment\\src\\com\\cg\\File1.txt"));         
-        BufferedReader TextFile2 = new BufferedReader(new FileReader("C:\\Users\\AANILLOM\\eclipse-workspace\\NGTJAVAAssignment\\src\\com\\cg\\File2.txt"));
+        BufferedReader TextFile1 = new BufferedReader(new FileReader("C:\\Users\\rheas\\eclipse-workspace\\JavaAssignment-pg2\\src\\com\\cg\\File1"));         
+        BufferedReader TextFile2 = new BufferedReader(new FileReader("C:\\Users\\rheas\\eclipse-workspace\\JavaAssignment-pg2\\src\\com\\cg\\File2"));
          
         String content1= TextFile1.readLine();         
         String content2 = TextFile2.readLine();         
